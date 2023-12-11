@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+input {
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 48px;
+  width: 405px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--base-500-dark-secondary);
+  color: #fff;
+  font-family: var(--text-sm-font-medium-font-family);
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 100%;
+  }
+}

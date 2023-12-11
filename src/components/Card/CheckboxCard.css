@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+.plan-card {
+  border-radius: 20px !important;
+  border: 1px solid #292929;
+  width: 250px !important;
+  height: 288px !important;
+  margin: 20px 28px !important;
+  border: 1px solid var(--base-100-dark, #292929);
+  background: var(--base-50-dark, #1e1e1e);
+  cursor: pointer;
+}
+
+.plan-card:hover {
+  background: var(--base-50-dark, #292929);
+}
+
+.selected,
+.selected:hover {
+  background: linear-gradient(#292929, #292929) padding-box,
+    linear-gradient(109.15deg, #fbda61 0%, rgba(255, 90, 205, 0.84) 86.08%)
+      border-box;
+  border: 1px solid transparent;
+}
+
+.plan-card .checkmark {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #292929;
+  border-radius: 50%;
+  background-color: #1e1e1e;
+}
+
+.plan-card:hover .checkmark {
+  background-color: #1e1e1e;
+}
+
+.plan-card .content {
+  padding: 20px 0px;
+}
+.plan-card .content h3 {
+  color: var(--base-900-dark, #fefefe);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  font-family: "SpaceGrotesk-Medium", Helvetica;
+}
+
+.plan-card .content p {
+  color: var(--base-800-dark, #cfcfcf);
+  text-align: center;
+  font-family: "SpaceGrotesk-Medium", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}

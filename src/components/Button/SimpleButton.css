@@ -1,0 +1,33 @@
+.simple-button {
+  position: relative;
+  background-color: var(--primary-gold-300);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) 32px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--text-base-font-medium-size);
+  color: var(--base-900-light);
+  font-family: var(--text-sm-font-medium);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 405px;
+}
+
+.simple-button:hover {
+  background-color: #fee38b;
+}
+
+.simple-button:active {
+  background-color: #feefc3;
+}
+
+@media (max-width: 768px) {
+  .simple-button {
+    width: 100%;
+  }
+}
